@@ -140,7 +140,7 @@ SS21S2026_201712289/
 
 ### 2. Tratamiento de Valores Faltantes
 ![Valores Faltantes 1](images/img_2.jpg)
-![Valores Faltantes 2](images/img_3.jpg)
+![Valores Faltantes 2](images/img_3.png)
 ![Valores Faltantes 3](images/img_4.jpg)
 
 ### 3. Dataset despues de los cambios
