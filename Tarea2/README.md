@@ -35,7 +35,7 @@ Las principales transformaciones fueron:
 
 Estas transformaciones permiten que el dataset sea más limpio, consistente y adecuado para su análisis en Power BI.
 
-![Transformacion](images/transformacion2.jpg)
+![Transformacion](Images/transformacion2.jpg)
 
 ---
 
@@ -45,7 +45,7 @@ Se desarrolló un dashboard en Power BI con diferentes visualizaciones que permi
 
 A continuación se muestra una captura del dashboard:
 
-![Dashboard](images/dashboard5.jpg)
+![Dashboard](Images/dashboard5.jpg)
 
 Las visualizaciones incluidas en el dashboard son:
 
