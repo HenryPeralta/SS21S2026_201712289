@@ -73,7 +73,7 @@ Se desarrollaron paquetes en SSIS para:
 
 ---
 
-# 5. Data Warehouse
+# Data Warehouse
 
 Se implementó un modelo dimensional tipo estrella:
 
@@ -103,7 +103,7 @@ Relaciones establecidas mediante claves primarias y foráneas.
 
 ---
 
-# 6. Modelo Analítico (SSAS)
+# Modelo Analítico (SSAS)
 
 Se implementó un cubo multidimensional con:
 
@@ -132,7 +132,7 @@ Se implementó un cubo multidimensional con:
 
 ---
 
-# 7. Procesamiento del Cubo
+# Procesamiento del Cubo
 
 El cubo fue procesado mediante **Process Full**, cargando los datos desde el Data Warehouse.
 
@@ -144,7 +144,7 @@ El cubo fue procesado mediante **Process Full**, cargando los datos desde el Dat
 
 ---
 
-# 8. Validación y Pruebas
+# Validación y Pruebas
 
 Se realizaron pruebas para verificar:
 
@@ -172,7 +172,7 @@ SELECT COUNT(*) FROM DimProducto;
 
 ---
 
-# 9. Visualización en Power BI
+# Visualización en Power BI
 
 Se conectó el cubo mediante **Live Connection**.
 
@@ -191,7 +191,7 @@ Se conectó el cubo mediante **Live Connection**.
 
 ---
 
-# 10. Justificación del Diseño
+# Justificación del Diseño
 
 Se utilizó un modelo estrella debido a:
 
@@ -203,7 +203,7 @@ El uso de SSAS permite consultas multidimensionales eficientes.
 
 ---
 
-# 11. Manual de Implementación
+# Manual de Implementación
 
 1. Ejecutar scripts DDL en SQL Server
 2. Ejecutar paquetes SSIS
@@ -212,7 +212,7 @@ El uso de SSAS permite consultas multidimensionales eficientes.
 
 ---
 
-# 13. Conclusiones
+# Conclusiones
 
 * Se implementó exitosamente un flujo completo de BI
 * Se mejoró el análisis de datos mediante modelado multidimensional
