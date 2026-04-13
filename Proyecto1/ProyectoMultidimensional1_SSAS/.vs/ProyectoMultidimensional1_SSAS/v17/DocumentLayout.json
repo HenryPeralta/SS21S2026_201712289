@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Proyectos\\SS21S2026_201712289\\Proyecto1\\ProyectoMultidimensional1_SSAS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FF44446C-ABCC-68AB-CDEA-798AA0EE6780}|ProyectoMultidimensional1_SSAS\\ProyectoMultidimensional1_SSAS.dwproj|C:\\Proyectos\\SS21S2026_201712289\\Proyecto1\\ProyectoMultidimensional1_SSAS\\ProyectoMultidimensional1_SSAS\\Dim Fecha.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{FF44446C-ABCC-68AB-CDEA-798AA0EE6780}|ProyectoMultidimensional1_SSAS\\ProyectoMultidimensional1_SSAS.dwproj|solutionrelative:ProyectoMultidimensional1_SSAS\\Dim Fecha.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FF44446C-ABCC-68AB-CDEA-798AA0EE6780}|ProyectoMultidimensional1_SSAS\\ProyectoMultidimensional1_SSAS.dwproj|C:\\Proyectos\\SS21S2026_201712289\\Proyecto1\\ProyectoMultidimensional1_SSAS\\ProyectoMultidimensional1_SSAS\\SG Food DW.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
       "RelativeMoniker": "D:0:0:{FF44446C-ABCC-68AB-CDEA-798AA0EE6780}|ProyectoMultidimensional1_SSAS\\ProyectoMultidimensional1_SSAS.dwproj|solutionrelative:ProyectoMultidimensional1_SSAS\\SG Food DW.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF44446C-ABCC-68AB-CDEA-798AA0EE6780}|ProyectoMultidimensional1_SSAS\\ProyectoMultidimensional1_SSAS.dwproj|C:\\Proyectos\\SS21S2026_201712289\\Proyecto1\\ProyectoMultidimensional1_SSAS\\ProyectoMultidimensional1_SSAS\\Dim Producto.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{FF44446C-ABCC-68AB-CDEA-798AA0EE6780}|ProyectoMultidimensional1_SSAS\\ProyectoMultidimensional1_SSAS.dwproj|solutionrelative:ProyectoMultidimensional1_SSAS\\Dim Producto.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF44446C-ABCC-68AB-CDEA-798AA0EE6780}|ProyectoMultidimensional1_SSAS\\ProyectoMultidimensional1_SSAS.dwproj|C:\\Proyectos\\SS21S2026_201712289\\Proyecto1\\ProyectoMultidimensional1_SSAS\\ProyectoMultidimensional1_SSAS\\Dim Cliente.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{FF44446C-ABCC-68AB-CDEA-798AA0EE6780}|ProyectoMultidimensional1_SSAS\\ProyectoMultidimensional1_SSAS.dwproj|solutionrelative:ProyectoMultidimensional1_SSAS\\Dim Cliente.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF44446C-ABCC-68AB-CDEA-798AA0EE6780}|ProyectoMultidimensional1_SSAS\\ProyectoMultidimensional1_SSAS.dwproj|C:\\Proyectos\\SS21S2026_201712289\\Proyecto1\\ProyectoMultidimensional1_SSAS\\ProyectoMultidimensional1_SSAS\\Dim Canal.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{FF44446C-ABCC-68AB-CDEA-798AA0EE6780}|ProyectoMultidimensional1_SSAS\\ProyectoMultidimensional1_SSAS.dwproj|solutionrelative:ProyectoMultidimensional1_SSAS\\Dim Canal.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FF44446C-ABCC-68AB-CDEA-798AA0EE6780}|ProyectoMultidimensional1_SSAS\\ProyectoMultidimensional1_SSAS.dwproj|C:\\Proyectos\\SS21S2026_201712289\\Proyecto1\\ProyectoMultidimensional1_SSAS\\ProyectoMultidimensional1_SSAS\\SG Food DW.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
@@ -18,31 +34,78 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "Dim Producto.dim [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Proyectos\\SS21S2026_201712289\\Proyecto1\\ProyectoMultidimensional1_SSAS\\ProyectoMultidimensional1_SSAS\\Dim Producto.dim",
+              "RelativeDocumentMoniker": "ProyectoMultidimensional1_SSAS\\Dim Producto.dim",
+              "ToolTip": "C:\\Proyectos\\SS21S2026_201712289\\Proyecto1\\ProyectoMultidimensional1_SSAS\\ProyectoMultidimensional1_SSAS\\Dim Producto.dim [Dise\u00F1o]",
+              "RelativeToolTip": "ProyectoMultidimensional1_SSAS\\Dim Producto.dim [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-11T17:15:33.933Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dim Cliente.dim [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Proyectos\\SS21S2026_201712289\\Proyecto1\\ProyectoMultidimensional1_SSAS\\ProyectoMultidimensional1_SSAS\\Dim Cliente.dim",
+              "RelativeDocumentMoniker": "ProyectoMultidimensional1_SSAS\\Dim Cliente.dim",
+              "ToolTip": "C:\\Proyectos\\SS21S2026_201712289\\Proyecto1\\ProyectoMultidimensional1_SSAS\\ProyectoMultidimensional1_SSAS\\Dim Cliente.dim [Dise\u00F1o]",
+              "RelativeToolTip": "ProyectoMultidimensional1_SSAS\\Dim Cliente.dim [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-11T17:15:31.357Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "SG Food DW.cube [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Proyectos\\SS21S2026_201712289\\Proyecto1\\ProyectoMultidimensional1_SSAS\\ProyectoMultidimensional1_SSAS\\SG Food DW.cube",
               "RelativeDocumentMoniker": "ProyectoMultidimensional1_SSAS\\SG Food DW.cube",
-              "ToolTip": "C:\\Proyectos\\SS21S2026_201712289\\Proyecto1\\ProyectoMultidimensional1_SSAS\\ProyectoMultidimensional1_SSAS\\SG Food DW.cube [Dise\u00F1o]",
-              "RelativeToolTip": "ProyectoMultidimensional1_SSAS\\SG Food DW.cube [Dise\u00F1o]",
+              "ToolTip": "C:\\Proyectos\\SS21S2026_201712289\\Proyecto1\\ProyectoMultidimensional1_SSAS\\ProyectoMultidimensional1_SSAS\\SG Food DW.cube [Dise\u00F1o]*",
+              "RelativeToolTip": "ProyectoMultidimensional1_SSAS\\SG Food DW.cube [Dise\u00F1o]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2026-04-09T00:46:27.764Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Dim Fecha.dim [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Proyectos\\SS21S2026_201712289\\Proyecto1\\ProyectoMultidimensional1_SSAS\\ProyectoMultidimensional1_SSAS\\Dim Fecha.dim",
+              "RelativeDocumentMoniker": "ProyectoMultidimensional1_SSAS\\Dim Fecha.dim",
+              "ToolTip": "C:\\Proyectos\\SS21S2026_201712289\\Proyecto1\\ProyectoMultidimensional1_SSAS\\ProyectoMultidimensional1_SSAS\\Dim Fecha.dim [Dise\u00F1o]*",
+              "RelativeToolTip": "ProyectoMultidimensional1_SSAS\\Dim Fecha.dim [Dise\u00F1o]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-11T17:15:12.494Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dim Canal.dim [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Proyectos\\SS21S2026_201712289\\Proyecto1\\ProyectoMultidimensional1_SSAS\\ProyectoMultidimensional1_SSAS\\Dim Canal.dim",
+              "RelativeDocumentMoniker": "ProyectoMultidimensional1_SSAS\\Dim Canal.dim",
+              "ToolTip": "C:\\Proyectos\\SS21S2026_201712289\\Proyecto1\\ProyectoMultidimensional1_SSAS\\ProyectoMultidimensional1_SSAS\\Dim Canal.dim [Dise\u00F1o]",
+              "RelativeToolTip": "ProyectoMultidimensional1_SSAS\\Dim Canal.dim [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-11T17:15:29.723Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "SG Food DW.dsv [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Proyectos\\SS21S2026_201712289\\Proyecto1\\ProyectoMultidimensional1_SSAS\\ProyectoMultidimensional1_SSAS\\SG Food DW.dsv",
               "RelativeDocumentMoniker": "ProyectoMultidimensional1_SSAS\\SG Food DW.dsv",
               "ToolTip": "C:\\Proyectos\\SS21S2026_201712289\\Proyecto1\\ProyectoMultidimensional1_SSAS\\ProyectoMultidimensional1_SSAS\\SG Food DW.dsv [Dise\u00F1o]",
               "RelativeToolTip": "ProyectoMultidimensional1_SSAS\\SG Food DW.dsv [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-04-09T00:46:25.868Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2026-04-09T00:46:25.868Z"
             }
           ]
         }
