@@ -163,7 +163,7 @@ Se entrenaron dos modelos:
 **Script:**
 `05_modelo_regresion.sql`
 
-### 📸 Capturas
+### Capturas
 
 - Modelo 1 Regresión Lineal
 ![Modelo 1 Regresion Lineal bytes](images/Query6_1.jpg)
@@ -227,7 +227,7 @@ Se calculó el error del modelo.
 `09_actual_vs_prediction_comparison.sql`
 
 ### Captura
-![Comparacion Real vs Prediccion](images/Query10.jpg)
+![Comparacion Real vs Prediccion](images/Query10_1.jpg)
 
 ---
 
