@@ -67,11 +67,11 @@ Incluye:
 
 ### Capturas
 
-**Conteo y rango de fechas:**
+- Conteo y rango de fechas
 ![Conteo y rango de fechas](images/Query2_1.jpg)
-**Análisis por mes:**
+- Análisis por mes
 ![Analisis por mes](images/Query2_2.jpg)
-**Análisis por tipo de pago:**
+- Análisis por tipo de pago
 ![Analisis por tipo de pago](images/Query2_3.jpg)
 
 ---
@@ -94,10 +94,11 @@ También se limpiaron datos y se generaron nuevas columnas.
 
 ### Capturas
 
-**Tabla creada:**
+- Tabla creada
 ![Tabla creada](images/Query3_1.jpg)
-**Datos con nuevas columnas:**
+- Datos con nuevas columnas
 ![Datos con nuevas columnas](images/Query3_2.jpg)
+
 ---
 
 ## 4. Consultas Analíticas
@@ -114,18 +115,19 @@ También se realizaron análisis adicionales:
 
 ### Capturas
 
-**Consultas Analíticas:**
+- Consultas Analíticas
 ![Consultas Analiticas](images/Query4_analisis_horario.jpg)
-**Consulta Optimizada:**
+- Consulta Optimizada
 ![Consulta Optimizada](images/Query4_optimizado_resultado.jpg)
-**Bytes Procesados:**
+- Bytes Procesados
 ![Bytes Procesados](images/Query4_optimmizado.jpg)
-**Consulta Sin Optimizacion:**
+- Consulta Sin Optimizacion
 ![Consulta Sin Optimizacion](images/Query4_sin_optimizar_resultado.jpg)
-**Bytes Procesados Sin Optimizar:**
+- Bytes Procesados Sin Optimizar
 ![Bytes Procesados Sin Optimizar](images/Query4_sin_optimizar.jpg)
-**Top rutas:**
+- Top rutas
 ![Top rutas](images/Query4_top_rutas.jpg)
+
 ---
 
 ## 5. Feature Engineering
@@ -144,10 +146,11 @@ Incluye:
 
 ### Capturas
 
-**Bytes Procesados Tabla ml_features:**
+- Bytes Procesados Tabla ml_features
 ![Bytes Procesados Tabla ml_features](images/Query5_1.jpg)
-**Tabla ml_features:**
+- Tabla ml_features
 ![Tabla ml_features](images/Query5_2.jpg)
+
 ---
 
 ## 6. Entrenamiento de Modelos
@@ -162,11 +165,11 @@ Se entrenaron dos modelos:
 
 ### 📸 Capturas
 
-**Modelo 1 Regresión Lineal:**
+- Modelo 1 Regresión Lineal
 ![Modelo 1 Regresion Lineal bytes](images/Query6_1.jpg)
 ![Modelo 1 Regresion Lineal](images/Query6_2.jpg)
 
-**Modelo 2 Regresión Boosted Trees:**
+- Modelo 2 Regresión Boosted Trees
 ![Modelo 1 Regresion Boosted Trees bytes](images/Query6_3.jpg)
 ![Modelo 1 Regresion Boosted Trees](images/Query6_4.jpg)
 
@@ -185,10 +188,11 @@ Se evaluaron los modelos utilizando métricas:
 
 ### Capturas
 
-**Modelo Lineal:**
+- Modelo Lineal
 ![Modelo Lineal](images/Query7_1.jpg)
-**Modelo Boosted:**
+- Modelo Boosted
 ![Modelo Boosted](images/Query7_2.jpg)
+
 ---
 
 ## 8. Predicciones
@@ -200,6 +204,7 @@ Se generaron predicciones utilizando el modelo Boosted Trees.
 
 ### Captura
 ![Predicciones](images/Query8_1.jpg)
+
 ---
 
 ## 9. Análisis de Resultados
@@ -211,6 +216,7 @@ Se generaron predicciones utilizando el modelo Boosted Trees.
 
 ### Captura
 ![Resultado por Hora](images/Query9.jpg)
+
 ---
 
 ### Comparación Real vs Predicción
