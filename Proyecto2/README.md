@@ -153,6 +153,22 @@ Incluye:
 
 ---
 
+## Variables del Modelo
+
+### Variable objetivo (target)
+- `tip_amount`: cantidad de propina del viaje
+
+### Variables de entrada (features)
+- `trip_distance`
+- `fare_amount`
+- `pickup_hour`
+- `pickup_day`
+- `trip_duration_minutes`
+
+Estas variables fueron seleccionadas debido a su relación directa con el comportamiento del usuario y el contexto del viaje.
+
+---
+
 ## 6. Entrenamiento de Modelos
 
 Se entrenaron dos modelos:
@@ -204,6 +220,21 @@ Lo que indica un mejor ajuste y capacidad predictiva en comparación con la regr
 
 ---
 
+## Selección del Modelo Final
+
+Con base en las métricas obtenidas (MAE, RMSE y R²), se seleccionó el modelo **Boosted Trees** como modelo final.
+
+Este modelo presenta:
+- Menor error promedio (MAE)
+- Menor penalización de errores grandes (RMSE)
+- Mayor capacidad explicativa (R²)
+
+Además, los modelos de árboles suelen capturar relaciones no lineales entre variables, lo cual es adecuado para este problema donde factores como distancia, hora y tarifa no tienen una relación estrictamente lineal con la propina.
+
+Por estas razones, el modelo Boosted Trees fue utilizado para generar las predicciones finales.
+
+---
+
 ## 8. Predicciones
 
 Se generaron predicciones utilizando el modelo Boosted Trees.
@@ -225,6 +256,25 @@ Se generaron predicciones utilizando el modelo Boosted Trees.
 
 ### Captura
 ![Resultado por Hora](images/Query9.jpg)
+
+---
+
+## 10. Ajuste de Hiperparámetros
+
+Se realizó un ajuste básico de hiperparámetros sobre el modelo Boosted Trees con el objetivo de mejorar su desempeño.
+
+Se modificaron parámetros como:
+- Profundidad del árbol
+- Número de iteraciones
+- Tasa de aprendizaje
+
+Posteriormente, el modelo fue evaluado utilizando el conjunto de datos de evaluación.
+
+Los resultados mostraron una ligera mejora en las métricas respecto al modelo original, confirmando la importancia del ajuste de hiperparámetros.
+
+### Captura
+![Modelo modelo_boosted_tuned](images/Query11_1.jpg)
+![modelo_boosted_tuned](images/Query11_2.jpg)
 
 ---
 
