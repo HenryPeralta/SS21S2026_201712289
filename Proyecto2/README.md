@@ -179,9 +179,18 @@ Se entrenaron dos modelos:
 
 Se evaluaron los modelos utilizando métricas:
 
-- MAE
-- RMSE
-- R²
+- **MAE (Mean Absolute Error)**: mide el error promedio absoluto entre valores reales y predichos.
+- **RMSE (Root Mean Squared Error)**: penaliza más los errores grandes.
+- **R² (Coeficiente de determinación)**: indica qué tan bien el modelo explica la variabilidad de los datos.
+
+### Resultados
+
+El modelo Boosted Trees presentó:
+- Menor MAE
+- Menor RMSE
+- Mayor R²
+
+Lo que indica un mejor ajuste y capacidad predictiva en comparación con la regresión lineal.
 
 **Script:**
 `06_evaluacion.sql`
@@ -255,7 +264,7 @@ Se observa que el error tiende a incrementarse en viajes más largos, lo que sug
 
 ---
 
-### Likl a Loocker Studio
+### Link a Loocker Studio
 ```
 https://datastudio.google.com/reporting/81a5c3da-322f-4ae7-85d3-2628b1c6bc69
 ```
@@ -268,12 +277,52 @@ https://datastudio.google.com/reporting/81a5c3da-322f-4ae7-85d3-2628b1c6bc69
 
 ---
 
+## Hallazgos relevantes
+
+- Las horas pico de viajes se concentran en la tarde (17:00 - 19:00), lo que refleja patrones de movilidad urbana.
+- Las tarifas presentan variaciones según la hora, posiblemente asociadas a demanda.
+- El modelo presenta mayor error en viajes largos, lo que sugiere que variables adicionales podrían mejorar la predicción.
+- El porcentaje de propina está influenciado por la distancia y la tarifa total.
+
+## Limitaciones del modelo
+
+- No se consideran variables externas como clima o tráfico.
+- El modelo puede perder precisión en valores extremos.
+- No se realizó tuning de hiperparámetros.
+
+## Justificación de decisiones técnicas
+
+### Uso de particiones
+Se utilizó particionamiento por `pickup_date` para reducir el volumen de datos escaneados en consultas que filtran por fecha, lo que disminuye costos y mejora el rendimiento.
+
+### Uso de clustering
+Se aplicó clustering por `vendor_id`, `pickup_location_id`, `dropoff_location_id` y `payment_type` debido a que son columnas frecuentemente utilizadas en filtros y agrupaciones.
+
+Esto permite que BigQuery organice mejor los datos y reduzca la cantidad de bloques leídos.
+
+### Feature Engineering
+Se crearon variables como:
+- `trip_duration_minutes`
+- `pickup_hour`
+- `pickup_day`
+- `tip_pct`
+
+Estas variables ayudan al modelo a capturar patrones temporales y de comportamiento del usuario.
+
+### Split de datos
+Se dividieron los datos en:
+- TRAIN
+- EVAL
+- PREDICT
+
+Esto evita **data leakage** y permite evaluar el modelo correctamente.
+
 ## Comparación de Costos
 
 | Tipo de Consulta | Bytes Procesados |
 |------------------|----------------|
-| Sin optimizar    | 829.85           |
-| Optimizada       | 202.1           |
+| Sin optimizar    | 829.85         |
+| Optimizada       | 202.1          |
 
 ---
 
