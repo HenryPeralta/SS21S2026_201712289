@@ -1,5 +1,12 @@
 # Proyecto 2 - Análisis y Modelado de NYC Taxi Trips 2022 en BigQuery ML
 
+## Grupo
+
+| Carnet | Nombres |
+|------------------|----------------|
+| 201712289    | Henry Gabriel Peralta Martinez         |
+| 201903767    | Carlos Estuardo Monterroso Santos      |
+
 ## Descripción del Proyecto
 Este proyecto tiene como objetivo el análisis de datos de viajes de taxi en Nueva York durante el año 2022, utilizando **Google BigQuery** para procesamiento de datos y **BigQuery ML** para la creación de modelos predictivos.
 
